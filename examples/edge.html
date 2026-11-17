@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><title>Edge cases</title></head>
+<body>
+<BUTTON TYPE="button" ARIA-LABEL="Close">×</BUTTON>
+<button
+  type="button"
+  aria-label="Menu">☰</button>
+<button type="button"><span><strong>Go</strong></span></button>
+<button type="button" aria-labelledby="help-text">?</button>
+<span id="help-text">Show help</span>
+<button type="button" aria-label="Quick" />
+<style>
+/* A button written in a style block is not a button: */
+.fake { content: "<button>"; }
+</style>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><title>Buttons</title></head>
+<body>
+<button type="submit">Send</button>
+<button type="button" aria-label="Close">×</button>
+<button type="button" aria-labelledby="menu-label">☰</button>
+<span id="menu-label">Open the menu</span>
+<button type="button"><span>Save</span></button>
+<button type="button" aria-label="Search">
+  <svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5"/></svg>
+</button>
+<!-- A button in a comment is not a button:
+<button type="button"></button>
+-->
+<script>
+// A button written in a script string is not a button either:
+var markup = '<button type="button"></button>';
+</script>
+</body>
+</html>
